@@ -1,0 +1,17 @@
+{
+  "name": "tdd-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon test/server.test.js",
+    "start": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "env2": "^2.1.0",
+    "shot": "^3.1.0",
+    "tape": "^4.6.0"
+  }
+}
